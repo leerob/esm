@@ -1,0 +1,16 @@
+/*
+ * Skypack CDN - marked@3.0.8
+ *
+ * Learn more:
+ *   📙 Package Documentation: https://www.skypack.dev/view/marked
+ *   📘 Skypack Documentation: https://www.skypack.dev/docs
+ *
+ * Pinned URL: (Optimized for Production)
+ *   ▶️ Normal: https://cdn.skypack.dev/pin/marked@v3.0.8-VoA10O3mFutME0380RW7/mode=imports/optimized/marked.js
+ *   ⏩ Minified: https://cdn.skypack.dev/pin/marked@v3.0.8-VoA10O3mFutME0380RW7/mode=imports,min/optimized/marked.js
+ *
+ */
+
+// Browser-Optimized Imports (Don't directly import the URLs below in your application!)
+export * from '/-/marked@v3.0.8-VoA10O3mFutME0380RW7/dist=es2020,mode=imports/optimized/marked.js';
+export {default} from '/-/marked@v3.0.8-VoA10O3mFutME0380RW7/dist=es2020,mode=imports/optimized/marked.js';
