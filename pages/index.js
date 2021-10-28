@@ -26,7 +26,7 @@ export default function Home({ content }) {
 
 export async function getStaticProps() {
   const rawContent = await fetch(
-    'https://gist.githubusercontent.com/leerob/24f71f388c4ec31d7f69c55f5e695598/raw/3831b8c2d8680db1ab53b4caeef208637dec9836/esm.md'
+    'https://raw.githubusercontent.com/leerob/esm/main/README.md'
   );
   const markdown = await rawContent.text();
 
