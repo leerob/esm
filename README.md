@@ -72,24 +72,24 @@ To opt-in, add the allowed URL prefixes inside `next.config.js`:
 ```js
 module.exports = {
   experimental: {
-    urlImports: ['https://cdn.skypack.dev']
-  }
-}
+    urlImports: ['https://cdn.skypack.dev'],
+  },
+};
 ```
 
 Then, you can import modules directly from URLs:
 
 ```js
-import confetti from 'https://cdn.skypack.dev/canvas-confetti'
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
 ```
 
-Any CDN that serves ES modules will work, including no-code and design tools like Framer:
+Any CDN that serves ES modules will work, including:
 
--   [Skypack](https://skypack.dev/)
--   [esm.sh](https://esm.sh/)
--   [jsDelivr](https://www.jsdelivr.com/)
--   [JSPM](https://jspm.org/)
--   [unpkg](https://unpkg.com/)
+- [Skypack](https://skypack.dev/)
+- [esm.sh](https://esm.sh/)
+- [jsDelivr](https://www.jsdelivr.com/)
+- [JSPM](https://jspm.org/)
+- [unpkg](https://unpkg.com/)
 
 You can also import ES Modules from tools like [Framer](https://www.framer.com/docs/guides/sharing-code/):
 
@@ -111,6 +111,6 @@ export default function Friends(props) {
 
 ## Deploy on Vercel
 
-Start using ESM with Next.js by deploying to [Vercel](https://vercel.com/new).
+Start using ESM with Next.js by deploying to [Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fesm).
 
 For more information, [watch our demo](https://www.youtube.com/watch?v=_WNeAubn92U) from Next.js Conf and [check out the documentation](https://nextjs.org/docs/api-reference/next.config.js/url-imports).
