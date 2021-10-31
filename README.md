@@ -6,7 +6,7 @@ Starting with [Next.js 12](https://nextjs.org/12), we have built-in support for 
 
 [Next.js 12](https://nextjs.org/12) also includes experimental support for importing ES Modules through URLs – no install or separate build step required.
 
-The Markdown content on this page is retrieved from GitHub using `fetch` in `getStaticProps`. Then, it uses [Marked](https://marked.js.org/) to parse and transform Markdown to HMTL, while syntax highlighting with [highlight.js](https://highlightjs.org/).
+The Markdown content on this page is retrieved from GitHub using `fetch` in `getStaticProps`. Then, it uses [Marked](https://marked.js.org/) to parse and transform Markdown to HTML, while syntax highlighting with [highlight.js](https://highlightjs.org/).
 
 ```jsx
 // pages/index.js
